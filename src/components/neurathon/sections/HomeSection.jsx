@@ -18,37 +18,37 @@ const HomeSection = ({ onRegister }) => {
             </div>
 
             <h1 className="magical-text" style={{
-                fontSize: 'clamp(1.2rem, 10vw, 4rem)',
+                fontSize: 'clamp(1.5rem, 6vw, 6rem)', // Adjusted scaling for better mobile fit without sacrificing desktop
                 fontFamily: 'var(--font-heading)',
                 marginBottom: '0.5rem',
                 width: '100%',
                 maxWidth: '100%',
                 lineHeight: '1.2',
-                padding: '0 5px',
+                padding: '0 10px',
                 wordWrap: 'break-word',
                 overflowWrap: 'break-word'
             }}>
                 NEURATHON'26
             </h1>
-            <h2 style={{ fontSize: 'clamp(0.8rem, 4vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: '0.5rem' }}>
+            <h2 style={{ fontSize: 'clamp(0.9rem, 3.5vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: '0.5rem' }}>
                 Code. Create. Conquer.
             </h2>
             <div style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '0.5rem', // Reduced gap for mobile
+                gap: 'clamp(0.5rem, 1vw, 1rem)',
                 width: '100%',
                 maxWidth: '800px',
                 margin: '1.5rem 0 2.5rem 0',
-                padding: '0 0.5rem' // Add padding container
+                padding: '0 1rem'
             }}>
                 <div style={{ h: '1px', flex: 1, background: 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.5))', height: '1px' }}></div>
                 <h3 style={{
-                    fontSize: 'clamp(0.5rem, 2.5vw, 0.9rem)', // Smaller font for mobile
+                    fontSize: 'clamp(0.6rem, 2.5vw, 1rem)',
                     color: '#C5A028',
                     fontFamily: 'Montserrat, sans-serif',
-                    letterSpacing: '0.05em', // Reduced spacing
+                    letterSpacing: '0.05em',
                     fontWeight: '700',
                     textTransform: 'uppercase',
                     textShadow: '0 0 5px rgba(0,0,0,0.5)',

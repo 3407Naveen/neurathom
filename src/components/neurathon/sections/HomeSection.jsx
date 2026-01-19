@@ -17,32 +17,42 @@ const HomeSection = ({ onRegister }) => {
                 <img src={neurathonLogo} alt="Neurathon Logo" style={{ height: 'clamp(60px, 12vw, 100px)' }} />
             </div>
 
-            <h1 className="magical-text" style={{ fontSize: 'clamp(1.5rem, 10vw, 6rem)', fontFamily: 'var(--font-heading)', marginBottom: '0.5rem', width: '100%', maxWidth: '100%', wordBreak: 'break-word', lineHeight: '1.1' }}>
+            <h1 className="magical-text" style={{
+                fontSize: 'clamp(1.8rem, 8vw, 5rem)',
+                fontFamily: 'var(--font-heading)',
+                marginBottom: '0.5rem',
+                width: '100%',
+                maxWidth: '100%',
+                lineHeight: '1.1',
+                padding: '0 10px' // Add padding to prevent edge touching
+            }}>
                 NEURATHON'26
             </h1>
-            <h2 style={{ fontSize: 'clamp(1rem, 4vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: '0.5rem' }}>
+            <h2 style={{ fontSize: 'clamp(0.9rem, 3.5vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: '0.5rem' }}>
                 Code. Create. Conquer.
             </h2>
             <div style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '1rem',
+                gap: '0.5rem', // Reduced gap for mobile
                 width: '100%',
                 maxWidth: '800px',
-                margin: '1.5rem 0 2.5rem 0'
+                margin: '1.5rem 0 2.5rem 0',
+                padding: '0 1rem' // Add padding container
             }}>
                 <div style={{ h: '1px', flex: 1, background: 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.5))', height: '1px' }}></div>
                 <h3 style={{
-                    fontSize: 'clamp(0.6rem, 2vw, 1rem)',
-                    color: '#C5A028', // Muted gold/metallic
+                    fontSize: 'clamp(0.5rem, 2vw, 0.9rem)', // Smaller font for mobile
+                    color: '#C5A028',
                     fontFamily: 'Montserrat, sans-serif',
-                    letterSpacing: '0.15em',
+                    letterSpacing: '0.1em', // Slightly reduced spacing
                     fontWeight: '700',
                     textTransform: 'uppercase',
                     textShadow: '0 0 5px rgba(0,0,0,0.5)',
                     textAlign: 'center',
-                    lineHeight: '1.4'
+                    lineHeight: '1.4',
+                    maxWidth: '80%' // Ensure text doesn't hit dividers
                 }}>
                     Organised by Department of AI & DS
                 </h3>

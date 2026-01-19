@@ -18,11 +18,35 @@ const HomeSection = ({ onRegister }) => {
             </div>
 
             <h1 className="magical-text" style={{ fontSize: 'clamp(2.5rem, 10vw, 6rem)', fontFamily: 'var(--font-heading)', marginBottom: '0.5rem' }}>
-                NEURATHON
+                NEURATHON'26
             </h1>
-            <h2 style={{ fontSize: 'clamp(1rem, 4vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: 'clamp(1rem, 3vw, 2rem)' }}>
+            <h2 style={{ fontSize: 'clamp(1rem, 4vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: '0.5rem' }}>
                 Code. Create. Conquer.
             </h2>
+            <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '1rem',
+                width: '100%',
+                maxWidth: '800px',
+                margin: '1.5rem 0 2.5rem 0'
+            }}>
+                <div style={{ h: '1px', flex: 1, background: 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.5))', height: '1px' }}></div>
+                <h3 style={{
+                    fontSize: 'clamp(0.7rem, 2vw, 1rem)',
+                    color: '#C5A028', // Muted gold/metallic
+                    fontFamily: 'Montserrat, sans-serif',
+                    letterSpacing: '0.15em',
+                    fontWeight: '700',
+                    textTransform: 'uppercase',
+                    textShadow: '0 0 5px rgba(0,0,0,0.5)',
+                    whiteSpace: 'nowrap'
+                }}>
+                    Organised by Department of AI & DS
+                </h3>
+                <div style={{ h: '1px', flex: 1, background: 'linear-gradient(90deg, rgba(212, 175, 55, 0.5), transparent)', height: '1px' }}></div>
+            </div>
 
             <div style={{
                 background: 'rgba(212, 175, 55, 0.1)',
@@ -66,7 +90,7 @@ const HomeSection = ({ onRegister }) => {
             >
                 Register Now
             </button>
-            <p style={{ opacity: 0.7, fontSize: 'clamp(0.8rem, 2vw, 0.9rem)' }}>Registration Fee: ₹300 per team</p>
+            <p style={{ opacity: 0.7, fontSize: 'clamp(0.8rem, 2vw, 0.9rem)' }}>Registration Fee: ₹100 per participant</p>
         </div>
     );
 };

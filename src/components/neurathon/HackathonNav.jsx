@@ -30,7 +30,7 @@ const HackathonNav = ({ activeSection, setActiveSection, onClose }) => {
         }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }} className="interactive" onClick={onClose}>
                 <img src={neurathonLogo} alt="Neurathon" style={{ height: '30px' }} />
-                <span style={{ fontFamily: 'var(--font-heading)', color: 'var(--gold)', fontSize: 'clamp(1rem, 3vw, 1.5rem)' }}>NEURATHON</span>
+                <span style={{ fontFamily: 'var(--font-heading)', color: 'var(--gold)', fontSize: 'clamp(1rem, 3vw, 1.5rem)' }}>NEURATHON'26</span>
             </div>
 
             <div style={{ display: 'flex', gap: 'clamp(0.5rem, 2vw, 2rem)', alignItems: 'center', flexWrap: 'wrap' }} className="nav-items">

@@ -67,7 +67,7 @@ const Hero = ({ onOpenDetail }) => {
                     WebkitTextFillColor: 'transparent',
                     filter: 'drop-shadow(0 2px 0 #000)'
                 }}>
-                    NEURATHON
+                    NEURATHON'26
                 </h1>
                 <p style={{ fontSize: '1.5rem', fontFamily: 'var(--font-body)', letterSpacing: '0.1em', opacity: 0.8 }}>
                     Code. Create. Conquer.

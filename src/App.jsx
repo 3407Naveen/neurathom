@@ -28,7 +28,7 @@ function App() {
           style={{ pointerEvents: 'auto', display: 'flex', gap: '1rem', color: 'var(--gold)', cursor: 'pointer' }}
           className="interactive"
         >
-          <span style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(0.9rem, 2.5vw, 1.2rem)' }}>NEURATHON '26</span>
+          <span style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(0.9rem, 2.5vw, 1.2rem)' }}>NEURATHON'26</span>
         </div>
 
         <div style={{ pointerEvents: 'auto', display: 'flex', gap: 'clamp(0.5rem, 2vw, 2rem)', flexWrap: 'wrap' }} className="desktop-nav">

@@ -1,12 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Mail, Instagram } from 'lucide-react';
 
 const ContactSection = () => {
     const students = [
-        { name: "Godwin Kamaraj", year: "III - AIDS" },
-        { name: "Naveen S ", year: "II - AIDS" },
-        { name: "Niranjani", year: "III - AIDS" },
-        { name: "Samyuktha P", year: "II - AIDS" }
+        { name: "Naveen S ", year: "II - AIDS    |    contact: 6383785126" },
+        { name: "Samyuktha P", year: "II - AIDS     |    contact: 94443 96950" }
     ];
 
     return (
@@ -66,8 +65,43 @@ const ContactSection = () => {
 
             </div>
 
+            {/* Spacer for 3cm gap */}
+            <div style={{ height: '3cm' }}></div>
+
+            {/* Official Contact Info */}
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-center space-y-6"
+            >
+                <div className="flex flex-col items-center justify-center gap-2">
+                    <div className="flex items-center gap-3 text-[#D4AF37]">
+                        <Mail className="w-5 h-5" />
+                        <h3 className="font-bold tracking-widest uppercase text-sm">Official Contact</h3>
+                    </div>
+                    <a href="mailto:aids.events@npsbcet.edu.in" className="text-white hover:text-[#D4AF37] transition-colors font-['Cinzel'] text-xl tracking-wide">
+                        aids.events@npsbcet.edu.in
+                    </a>
+                </div>
+
+                <div className="flex flex-col items-center justify-center gap-2">
+                    <div className="flex items-center gap-3 text-[#D4AF37]">
+                        <Instagram className="w-5 h-5" />
+                        <h3 className="font-bold tracking-widest uppercase text-sm">Follow Us</h3>
+                    </div>
+                    <a
+                        href="https://www.instagram.com/newprince_ai_ds/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-[#D4AF37] transition-colors font-['Cinzel'] text-xl tracking-wide"
+                    >
+                        @newprince_ai_ds
+                    </a>
+                </div>
+            </motion.div>
             <footer className="absolute bottom-4 text-gray-700 text-xs tracking-widest uppercase">
-                © 2025 Neurathon
+                © 2026 Neurathon
             </footer>
         </div>
     );

@@ -17,7 +17,7 @@ const HomeSection = ({ onRegister }) => {
                 <img src={neurathonLogo} alt="Neurathon Logo" style={{ height: 'clamp(60px, 12vw, 100px)' }} />
             </div>
 
-            <h1 className="magical-text" style={{ fontSize: 'clamp(2.5rem, 10vw, 6rem)', fontFamily: 'var(--font-heading)', marginBottom: '0.5rem' }}>
+            <h1 className="magical-text" style={{ fontSize: 'clamp(1.5rem, 10vw, 6rem)', fontFamily: 'var(--font-heading)', marginBottom: '0.5rem', width: '100%', maxWidth: '100%', wordBreak: 'break-word', lineHeight: '1.1' }}>
                 NEURATHON'26
             </h1>
             <h2 style={{ fontSize: 'clamp(1rem, 4vw, 2rem)', color: 'var(--text-primary)', fontFamily: 'var(--font-heading)', letterSpacing: 'clamp(0.1em, 0.5vw, 0.3em)', marginBottom: '0.5rem' }}>
@@ -34,14 +34,15 @@ const HomeSection = ({ onRegister }) => {
             }}>
                 <div style={{ h: '1px', flex: 1, background: 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.5))', height: '1px' }}></div>
                 <h3 style={{
-                    fontSize: 'clamp(0.7rem, 2vw, 1rem)',
+                    fontSize: 'clamp(0.6rem, 2vw, 1rem)',
                     color: '#C5A028', // Muted gold/metallic
                     fontFamily: 'Montserrat, sans-serif',
                     letterSpacing: '0.15em',
                     fontWeight: '700',
                     textTransform: 'uppercase',
                     textShadow: '0 0 5px rgba(0,0,0,0.5)',
-                    whiteSpace: 'nowrap'
+                    textAlign: 'center',
+                    lineHeight: '1.4'
                 }}>
                     Organised by Department of AI & DS
                 </h3>

@@ -14,7 +14,7 @@ const RulesFAQSection = () => {
 
     const faqs = [
         { q: "Is registration fee refundable?", a: "No, the registration fee of ₹100 per participant is non-refundable." },
-        { q: "Will food be provided?", a: "Yes, food and refreshments will be provided throughout the 24-hour duration." },
+        { q: "Will food be provided?", a: "No food will be provided and refreshments will be provided throughout the 24-hour duration." },
         { q: "Do we need to stay overnight?", a: "Yes, this is a 30-hour hackathon, and teams are expected to stay at the venue overnight." },
         { q: "Are beginners allowed?", a: "Absolutely! Mentors will be available to guide you through the process." }
     ];
